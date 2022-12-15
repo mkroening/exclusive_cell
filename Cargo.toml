@@ -1,0 +1,10 @@
+[package]
+name = "exclusive_cell"
+version = "0.0.0"
+authors = ["Martin Kröning <mkroening@posteo.net>"]
+edition = "2021"
+description = "A thread-safe, non-blocking, no-std cell that can only be accessed once."
+repository = "https://github.com/mkroening/exclusive_cell"
+license = "MIT OR Apache-2.0"
+keywords = ["exclusive", "cell", "static", "once", "singleton"]
+categories = ["rust-patterns", "memory-management", "no-std"]
