@@ -1,5 +1,9 @@
 # exclusive_cell
 
+[![Crates.io](https://img.shields.io/crates/v/exclusive_cell)](https://crates.io/crates/exclusive_cell)
+[![docs.rs](https://img.shields.io/docsrs/exclusive_cell)](https://docs.rs/exclusive_cell)
+[![CI](https://github.com/mkroening/exclusive_cell/actions/workflows/ci.yml/badge.svg)](https://github.com/mkroening/exclusive_cell/actions/workflows/ci.yml)
+
 This crate provides two thread-safe, non-blocking, no-std synchronization primitives:
 * `ExclusiveCell` can be accessed at most once and provides mutable access to the stored contents.
 * `CallOnce` can only be called once sucessfully.
