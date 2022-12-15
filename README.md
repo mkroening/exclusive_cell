@@ -5,8 +5,15 @@
 [![CI](https://github.com/mkroening/exclusive_cell/actions/workflows/ci.yml/badge.svg)](https://github.com/mkroening/exclusive_cell/actions/workflows/ci.yml)
 
 This crate provides two thread-safe, non-blocking, no-std synchronization primitives:
-* `ExclusiveCell` can be accessed at most once and provides mutable access to the stored contents.
-* `CallOnce` can only be called once sucessfully.
+* [`ExclusiveCell`] can be accessed at most once and provides mutable access to the stored contents.
+* [`CallOnce`] can only be called once sucessfully.
+
+[`ExclusiveCell`]: https://docs.rs/exclusive_cell/latest/exclusive_cell/struct.ExclusiveCell.html
+[`CallOnce`]: https://docs.rs/exclusive_cell/latest/exclusive_cell/struct.CallOnce.html
+
+For API documentation see the [docs].
+
+[docs]: https://docs.rs/exclusive_cell
 
 ## License
 
