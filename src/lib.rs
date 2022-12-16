@@ -13,7 +13,7 @@
 //! assert!(EXCLUSIVE_CELL.take().is_none());
 //! ```
 //!
-//! [`CallOnce`] can only be called once sucessfully:
+//! [`CallOnce`] can only be called once successfully:
 //!
 //! ```
 //! use exclusive_cell::CallOnce;
@@ -32,7 +32,7 @@ use core::{
     sync::atomic::{AtomicBool, Ordering},
 };
 
-/// A synchronization primitive that can only be called once sucessfully.
+/// A synchronization primitive that can only be called once successfully.
 ///
 /// It behaves similarily to `ExclusiveCell<()>` but with a more descriptive API.
 ///

@@ -6,7 +6,7 @@
 
 This crate provides two thread-safe, non-blocking, no-std synchronization primitives:
 * [`ExclusiveCell`] can be accessed at most once and provides mutable access to the stored contents.
-* [`CallOnce`] can only be called once sucessfully.
+* [`CallOnce`] can only be called once successfully.
 
 [`ExclusiveCell`]: https://docs.rs/exclusive_cell/latest/exclusive_cell/struct.ExclusiveCell.html
 [`CallOnce`]: https://docs.rs/exclusive_cell/latest/exclusive_cell/struct.CallOnce.html
